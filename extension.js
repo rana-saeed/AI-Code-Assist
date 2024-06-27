@@ -5,7 +5,7 @@ const axios = require("axios");
 const apiUrl = 'https://api.fireworks.ai/inference/v1/chat/completions';
 
 // Define the bearer token (use environment variables in production)
-const bearerToken = 'jmd6HIoZONdb7a3xpwLVpurGGnBq3KhOrKFyGdHthFdbJvWr';
+const bearerToken = 'YOUR-API-KEY-HERE';
 
 // Create a reusable Axios instance with default headers
 const apiClient = axios.create({
